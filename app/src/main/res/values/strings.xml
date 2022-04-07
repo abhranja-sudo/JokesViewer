@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">JokesViewer</string>
+    <string name="jk1">Roll length?</string>
+    <string-array name="jokes">
+        <item>Short</item>
+        <item>Medium</item>
+        <item>Long</item>
+    </string-array>
 </resources>
