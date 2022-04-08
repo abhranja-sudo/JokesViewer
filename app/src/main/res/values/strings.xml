@@ -1,9 +1,25 @@
 <resources>
     <string name="app_name">JokesViewer</string>
-    <string name="jk1">Roll length?</string>
     <string-array name="jokes">
-        <item>Short</item>
-        <item>Medium</item>
-        <item>Long</item>
+        <item>What do kids play when their mom is using the phone? Bored games.</item>
+        <item>What do you call an ant who fights crime? A vigilANTe!</item>
+        <item>Why are snails slow? Because they’re carrying a house on their back.</item>
+        <item>What’s the smartest insect? A spelling bee!</item>
+        <item>What does a storm cloud wear under his raincoat? Thunderwear.</item>
+        <item>What is fast, loud and crunchy? A rocket chip.</item>
+        <item>How does the ocean say hi? It waves!</item>
+        <item>What do you call a couple of chimpanzees sharing an Amazon account? PRIME-mates.</item>
+        <item>Why did the teddy bear say no to dessert? Because she was stuffed.</item>
+        <item>Why did the soccer player take so long to eat dinner? Because he thought he couldn’t use his hands.</item>
+        <item>Name the kind of tree you can hold in your hand? A palm tree!</item>
+        <item>What do birds give out on Halloween? Tweets.</item>
+        <item>What has ears but cannot hear? A cornfield.</item>
+        <item>What’s a cat’s favorite dessert? A bowl full of mice-cream.</item>
+        <item>Where did the music teacher leave her keys? In the piano!</item>
+        <item>What did the policeman say to his hungry stomach? “Freeze. You’re under a vest.”</item>
     </string-array>
+
+    <string name="next">next joke</string>
+    <string name="prev">previous joke</string>
+
 </resources>
