@@ -7,6 +7,7 @@ import android.widget.Toast
 import androidx.fragment.app.Fragment
 import kotlin.math.abs
 
+const val JOKE_STATE = "jokeState"
 
 class JokesFragment: Fragment() {
     private var initTouchY = 0
@@ -66,11 +67,17 @@ class JokesFragment: Fragment() {
         return parentView
     }
 
+    override fun onSaveInstanceState(outState: Bundle) {
+        super.onSaveInstanceState(outState)
+        outState.putInt(JOKE_STATE, jokeIndex)
+    }
+
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
         if (savedInstanceState == null) {
             updateJoke()
         } else {
+            jokeIndex = savedInstanceState.getInt(JOKE_STATE)
             updateJoke()
         }
     }
