@@ -48,7 +48,7 @@ class JokesFragment: Fragment() {
                     val y = event.y.toInt()
 
                     // See if movement is at least 500 pixels
-                    if (abs(y - initTouchY) >= 500) {
+                    if (abs(y - initTouchY) >= 300) {
                         if (y > initTouchY) {
                             jokeIndex--
                             updateJoke()
